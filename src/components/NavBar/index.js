@@ -7,7 +7,7 @@ export const MainNav = () => {
   return (
     <Navbar expand="lg">
       <Container>
-        <Navbar.Brand href="/">CTB Visuanotes</Navbar.Brand>
+        <Navbar.Brand href="/">CBTC Visuanotes</Navbar.Brand>
         <Navbar.Toggle/>
         <Navbar.Collapse>
           <Nav className="me-auto">
