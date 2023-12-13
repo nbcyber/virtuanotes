@@ -45,8 +45,8 @@ export const MainNav = () => {
               <NavDropdown.Item href="">Network Security</NavDropdown.Item>
             </NavDropdown>
 
-            <NavDropdown title="ELN">
-              <NavDropdown.Item href="">Introduction</NavDropdown.Item>
+            <NavDropdown title="ELN" href="/eln">
+              <NavDropdown.Item href="eln/intro">Introduction</NavDropdown.Item>
               <NavDropdown.Item href="">Switch Concepts</NavDropdown.Item>
               <NavDropdown.Item href="">IP Routing</NavDropdown.Item>
               <NavDropdown.Item href="">Protecting Networks</NavDropdown.Item>

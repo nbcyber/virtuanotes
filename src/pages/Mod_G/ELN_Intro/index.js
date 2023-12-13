@@ -1,29 +1,16 @@
 import { Button, Card, Col, Container, Row } from "react-bootstrap";
 import { NoteCard } from "../../../components/NoteCard";
+import { ObjectivesComponent } from "../../../components/Objectives";
+import { useState } from "react";
 
 export const ELNIntroPage = () => {
+  const [objectives, setObjectives] = useState(["Define network management principles", "Define guidelines for implementation of network management tools and technologies", "Define the layers of the Cisco model", "Analyze boot process and startup config", "Define the Cisco Internetwork Operating System (IOS)", "Analyze ISO access methods", "Identify User and Configuration modes"]);
   return (
     <Container>
-      <Row className="mb-3">
-        <Col>
-          <h1>Enterprise Level Networking</h1>
-        </Col>
-      </Row>
-      <Row md={3}>
- <NoteCard title={"ELN Introduction"}/>
- <NoteCard title={"Switch Concepts"}/>
- <NoteCard title={"IP Routing"}/>
- <NoteCard title={"Protecting Networks"}/>
- <NoteCard title={"Access Control Lists"}/>
- <NoteCard title={"Deny Specific Attacks"}/>
- <NoteCard title={"Network Tunneling"}/>
- <NoteCard title={"Network Address Translation"}/>
+      <ObjectivesComponent objectives={objectives}/>
+      {/* objectives component */}
 
-
-
-
-
-      </Row>
+      <Row></Row>
     </Container>
   );
 };
