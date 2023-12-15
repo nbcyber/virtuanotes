@@ -7,6 +7,7 @@ export const ELNIntroPage = () => {
   const [objectives, setObjectives] = useState(["Define network management principles", "Define guidelines for implementation of network management tools and technologies", "Define the layers of the Cisco model", "Analyze boot process and startup config", "Define the Cisco Internetwork Operating System (IOS)", "Analyze ISO access methods", "Identify User and Configuration modes"]);
   return (
     <Container>
+      <h1>Test</h1>
       <ObjectivesComponent objectives={objectives}/>
       {/* objectives component */}
 

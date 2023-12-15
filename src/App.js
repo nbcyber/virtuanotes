@@ -12,8 +12,7 @@ function App() {
   return (
     <div className="App">
       <Routes>
-        <Route path="/" element={null}>
-          <Route index element={<Home />} />
+        <Route path="/" element={<Home />}>
           <Route path="eln" element={<EnterpriseLevelNetworking />}>
           <Route path="intro" element={<ELNIntroPage />} />
             </Route>
